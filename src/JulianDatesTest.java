@@ -20,7 +20,6 @@ public class JulianDatesTest extends JulianDate {
 		System.out.println("Expected:" + expected);
 		System.out.println("Actual:" + actual);
 	}
-
 	public static void testBetweenDates() {
 		JulianDate.julianBetweenDates();
 		int expected = 1177;
