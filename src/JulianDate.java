@@ -27,6 +27,7 @@ public class JulianDate {
 		System.out.println("The Julian date beween these two date is:" + julianBetweenDate.getJulianBetweenDates());
 	}
 
+	//
 	public static JulianDate julianAnyDateInJulian() {
 		// obtains an instance of LocalDate from a text string
 		LocalDate givenDate = LocalDate.parse("1993-09-28");
